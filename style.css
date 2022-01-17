@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap");
+
+.grid-square {
+  margin: 0;
+}
+
+.Main-title {
+  font-weight: 800;
+  text-align: center;
+  color: azure;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin-top: 30px;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  background-color: rgb(52, 64, 75);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  box-shadow: 5px 5px 50px;
+  margin-left: 100px;
+  background-color: azure;
+}
+
+.btn {
+  font-family: "Open Sans";
+  font-weight: 400;
+  align-self: flex-start;
+  margin-left: 50px;
+  width: 90px;
+  height: 30px;
+  padding-bottom: 10px;
+  font-size: large;
+  border-style: none;
+  border: 3px solid blueviolet;
+  border-radius: 20px;
+  background-color: rgb(164, 108, 192);
+  color: rgb(216, 211, 211);
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: lightgreen;
+  color: rgb(155, 155, 155);
+  border: 3px solid darkgreen;
+  transition-duration: 0.25s;
+}
+
+.grid-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
