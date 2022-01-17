@@ -35,7 +35,11 @@ body {
   margin-left: 100px;
   background-color: azure;
 }
-
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
 .btn {
   font-family: "Open Sans";
   font-weight: 400;
@@ -65,4 +69,10 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+    display: block;
+  }
 }
